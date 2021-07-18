@@ -19,6 +19,9 @@ body {
 .show-sidebar {
     transform: translate(0);
 }
+.hide-bars {
+    visibility: hidden;
+}
 .sidebar-header {
     display: flex;
     justify-content: space-between;

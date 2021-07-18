@@ -6,9 +6,11 @@ console.log(sidebar);
 bars.addEventListener('click', ()=> {
     console.log('cliked');
     sidebar.classList.add('show-sidebar');
+    bars.classList.add('hide-bars');
 })
 
 times.addEventListener('click', ()=> {
     console.log('cliked');
     sidebar.classList.remove('show-sidebar');
+    bars.classList.remove('hide-bars');
 })
